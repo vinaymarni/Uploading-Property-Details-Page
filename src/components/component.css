@@ -1,0 +1,271 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.main-heading{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgb(70, 3, 70);
+}
+
+.sub-heading{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgb(17, 17, 82);
+    margin-bottom: 30px;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.inpit-label{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(70, 3, 70);
+}
+
+.input-field{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 300px;
+    font-size: 18px;
+}
+
+.input-field:focus {
+    outline: none;
+}
+
+#icon{
+    position:relative;
+    top: 25px;
+    left: 275px;
+    font-size: 20px;
+}
+
+.property-type-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    cursor: pointer;
+    user-select: none;
+}
+
+.property-type{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 50px;
+    width: 130px;
+    background-color: rgb(211, 207, 207);
+    cursor: pointer;
+}
+
+.property-types-main-con{
+    border-style: solid;
+    border-width: 1px;
+    height: 150px;
+    width: 800px;
+}
+
+.select-property-btn{
+    font-size: 18px;
+    height: 40px;
+    width: 130px;
+    background-color: rgb(211, 207, 207);
+    margin: 15px;
+    border-width: 0;
+    cursor: pointer;
+}
+
+.property-post-btn{
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+   
+    background-color: rgb(75, 3, 75);
+    color: white;
+    margin: 15px;
+    border-width: 0;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.amenities-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    flex-wrap: wrap;
+    height: 700px;
+    border-style: solid;
+    border-width:7px;
+    border-radius: 25px;
+    border-color: rgb(75, 3, 75);
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+.checkbox-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px;
+    width: 250px;
+    flex-grow: 1;
+}
+
+.checkbox-label:focus {
+    outline: none;
+}
+
+.check-box{
+    width: 25px;
+    height: 25px;
+    color: green;
+}
+
+.checkbox-label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-left: 10px;
+    user-select: none;
+}
+
+.textarea-con{
+    height: 200px;
+    width: 100%;
+    border-style: solid;
+    border-width:7px;
+    border-radius: 15px;
+    border-color: rgb(75, 3, 75);
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-family:  Arial, sans-serif;
+}
+
+.radios-container{
+    display: flex;
+    flex-direction: space-between;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-style: solid;
+    border-width:2px;
+    border-radius: 15px;
+    border-color: rgb(75, 3, 75);
+    padding: 20px;
+
+}
+
+.select-radio-input{
+    height: 20px;
+    width: 20px;
+}
+.radio-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.hori-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+#hori-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.upload-btn{
+    background-color: rgb(75, 3, 75);
+    color: white;
+    margin: 10px;
+    border-width: 0;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.del-btn{
+    background-color: red;
+    color: white;
+    margin: 10px;
+    border-width: 0;
+    border-radius: 5px;
+}
+
+
+.VideoInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .VideoInput_input {
+    display: none;
+  }
+  
+  .VideoInput_video {
+    display: block;
+    margin: 0;
+  }
+  
+  .VideoInput_footer {
+    background: #eee;
+    width: 100%;
+    min-height: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  
+
+.images-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 95vw;
+    flex-wrap: wrap;
+    
+}
